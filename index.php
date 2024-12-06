@@ -28,9 +28,9 @@ function Opdracht1(){
         }
     }
 
-    echo "The number in favor is: $in_favor <br>";
-    echo "The number against is: $against <br>";
-    echo "The number undecided is: $undecided <br>";
+    echo "The total votes in favor is: $in_favor <br>";
+    echo "The total votes against is: $against <br>";
+    echo "The total votes undecided is: $undecided <br>";
 }
 
 
@@ -98,7 +98,6 @@ function Opdracht2(int $total_letters_sent, int $total_votes_received, int $in_f
         echo "Total undecided votes: $total_undecided_votes<br>";
         echo "Total votes arrived: $total_votes_received<br>";
         echo "Total letters sent: $total_letters_sent<br>";
-
     }
 }
 
@@ -128,6 +127,7 @@ function Opdracht3(){
 # Daarnaast zorgt het er ook voor dat het relatief gemakkelijk uit te breiden is, mocht dat in de toekomst nodig zijn.
 # ResultCalculator en TotalResult zijn modellen die ik niet helemaal snap. Deze zouden gereduceert kunnen worden naar 1 model waaraan wij PartijResults kunnen meegeven
 # waarop een calculatie kan worden gedaan. (Eigenlijk wat ik nu half heb gedaan in PartyResult).
+# In dit geval zijn er simpele functies geschreven zonder aandacht te schenken aan de visualisatie, in een echte applicatie zou dat natuurlijk ook anders moeten.
 #
 # In algemene zin vond ik de technische assessment grappig om te doen. Wel merk ik dat mijn PHP skills wel wat opgefrist moeten worden aangezien puur PHP voor mij wel een tijdje geleden is.
 
